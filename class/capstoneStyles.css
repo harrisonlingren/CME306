@@ -1,0 +1,16 @@
+/* dark blue: #13294b
+light blue: #00a3e0
+dark gray: rgb(175,175,175)
+gray: rgb(215,215,215)
+light gray(230,230,230) */
+
+header {
+  background-color: rgb(215, 215, 215);
+}
+nav {
+  background-color: #13294b;
+}
+
+nav a {
+  color: white;
+}
