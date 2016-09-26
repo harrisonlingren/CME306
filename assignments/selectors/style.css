@@ -1,0 +1,108 @@
+* {
+  font-size:1rem;
+  font-family:"Agency FB";
+}
+
+body {
+  background-color: rgb(200, 200, 200);
+}
+
+#sideContent {
+  float:left;
+}
+
+aside {
+  margin: -1rem 1rem;
+  padding:5px 20px;
+  border: 12px solid rgb(100, 150, 50);
+  background-color: white;
+}
+
+aside:first-child {
+  margin-top: 1rem;
+}
+
+aside:last-child {
+  margin-bottom: 1rem;
+}
+
+aside a {
+  text-decoration: none;
+  font-style: italic;
+}
+
+
+article {
+  margin-bottom:2rem;
+}
+
+article p:first-of-type {
+  color: black;
+  font-weight: bold;
+}
+
+article p:first-of-type::first-line {
+  color: rgb(100, 150, 50);
+}
+
+article p:first-of-type::first-letter {
+  font-size: 2rem;
+  text-shadow: 1px 1px white;
+}
+
+
+table {
+  float:left;
+  margin-right:5rem;
+  margin-bottom: 1em;
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding:0.5rem;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: rgba(100, 150, 50, 0);
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(100, 150, 50, 0.5);
+}
+
+tr:first-child, tr:last-child {
+  background-color: rgba(100, 150, 50, 1);
+  color: white;
+}
+
+
+h1 {
+  font-size:2rem;
+  clear:both;
+  color:rgb(100, 150, 50);
+  text-shadow: 1px 1px white;
+}
+
+nav li {
+  float:left;
+  width:20%;
+  list-style-type:none;
+  text-align:center;
+  margin-bottom:1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav li:nth-child(odd) {
+  background-color: rgb(100, 150, 50);
+}
+
+nav a {
+  padding:0.5rem;
+
+}
