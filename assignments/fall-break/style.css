@@ -1,25 +1,110 @@
 /* http://imgur.com/gjmcYIh.png */
 
 .container {
-  
-}
+  padding: 0;
+  display: block;
+  position: absolute;
+  clear: both;
+  background-image: radial-gradient(
+    circle 350px,
+    #565656,
+    #262626
+  );
+  width: 726px;
+  height: 500px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+} /* done */
 
 .moon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 40px;
+  top: 20px;
+  border-radius: 50px;
+  background-image: radial-gradient(
+    circle 350px,
+    rgba(255,255,255,.75),
+    rgba(255,255,255,.25) 40px
+  );
+} /* done */
 
-}
+.moon-overlay {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: -35px;
+  top: -35px;
+  border-radius: 75px;
+  background-image: radial-gradient(
+    circle,
+    rgba(255,255,255,.25),
+    rgba(255,255,255,0) 75px,
+    rgba(255,255,255,0) 150px
+  );
+} /* done */
 
 .title {
-
-}
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 160px;
+  text-shadow: -.25px 1.5px 0 #FFF, 2px 2px 5px darkorange;
+} /* done */
 
 .pumpkin-container {
-
-}
+  position: absolute;
+  height: 140px;
+  bottom: 125px;
+  /* background-color: #888; */
+  width: 528px;
+  left: 99px;
+  right: 99px;
+} /* done */
 
 .pumpkin {
+  background:
+    repeating-radial-gradient(
+      circle,
+      #FF4500,
+      #FFA500,
+      #FF4500 27px
+    );
+  border-radius: 52px;
+  height: 120px;
+  bottom: 0;
+  float: left;
+  width: 120px;
+  margin: 20px 6px 0 6px;
+} /* done */
 
-}
+.pumpkin-top {
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  margin-left: 54px;
+  top: 5px;
+  background-image: linear-gradient(
+    green 5px, #FF4500 20px
+  );
+  float: left;
+} /* done */
 
 .ground {
-
-}
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      black ,
+      green 10.41px,
+      black 10.41px,
+      green 20.82px /* determines size */
+    );
+  position: absolute;
+  width: 100%;
+  height: 125px;
+  bottom: 0;
+} /* done */
