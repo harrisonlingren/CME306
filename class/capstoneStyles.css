@@ -4,13 +4,78 @@ dark gray: rgb(175,175,175)
 gray: rgb(215,215,215)
 light gray(230,230,230) */
 
+/* GENERAL SETTINGS */
+
 header {
-  background-color: rgb(215, 215, 215);
+  background-color: #00a3e0;
 }
+
+/* END OF GENERAL SETTINGS */
+
+
+
+/* NAVIGATION SETTINGS */
+
 nav {
   background-color: #13294b;
 }
 
-nav a {
+nav a, #miniNav a {
   color: white;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+
+#pageNav a {
+  display: inline-block;
+  background-color: rgb(210, 210, 210);
+}
+
+#pageNav a:hover {
+  background-color: #00a3e0;
+}
+
+#pageNav ul, #miniNav ul, nav ul {
+  list-style: none;
+}
+
+/* Media queries for navigation */
+
+@media screen and (max-width: 480px) {
+  nav ul {
+    display: none;
+  }
+  #lineBox hr {
+    width:1.2rem;
+    height:2px;
+    margin: 4px 0;
+    box-shadow: 1px 1px 2px black;
+    background-color: rgb(236,240,241);
+    border: none;
+  }
+
+  #lineBox {
+    padding: 1rem;
+  }
+
+  #miniNav a {
+    padding: 5px 1rem;
+    display: inline-block;
+  }
+
+  #miniNav li:hover {
+    background-color: #e31c79;
+  }
+
+  #miniNav li {
+    background-color: #2980b9;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  #lineBox {
+    display: none;
+  }
+}
+
+/* END OF NAVIGATION SETTINGS */
