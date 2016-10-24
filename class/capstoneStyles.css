@@ -12,7 +12,22 @@ header {
 
 /* END OF GENERAL SETTINGS */
 
+/* LAYOUT SETTINGS */
 
+h1 {
+  text-align: right;
+  margin-right: 1rem;
+  position: relative;
+  top:2rem;
+}
+
+
+
+
+
+
+
+/* END OF LAYOUT SETTINGS */
 
 /* NAVIGATION SETTINGS */
 
@@ -29,6 +44,10 @@ nav a, #miniNav a {
 #pageNav a {
   display: inline-block;
   background-color: rgb(210, 210, 210);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
 }
 
 #pageNav a:hover {
@@ -38,6 +57,7 @@ nav a, #miniNav a {
 #pageNav ul, #miniNav ul, nav ul {
   list-style: none;
 }
+
 
 /* Media queries for navigation */
 
@@ -52,6 +72,17 @@ nav a, #miniNav a {
     box-shadow: 1px 1px 2px black;
     background-color: rgb(236,240,241);
     border: none;
+  }
+
+  #logolink {
+    display:block;
+    width: 160px;
+    margin: 0 auto;
+  }
+
+  nav img {
+    display: inline-block;
+    padding: 0.75
   }
 
   #lineBox {
@@ -70,6 +101,16 @@ nav a, #miniNav a {
   #miniNav li {
     background-color: #2980b9;
   }
+
+  header {
+    height: 4rem;
+  }
+
+  #pageNav a {
+    margin:1rem 1%;
+    padding:0.5rem 3%;
+  }
+
 }
 
 @media screen and (min-width: 481px) {
