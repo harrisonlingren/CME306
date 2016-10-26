@@ -1,35 +1,84 @@
 /* dark blue: #13294b
 light blue: #00a3e0
 dark gray: rgb(175,175,175)
-gray: rgb(215,215,215)
+gray: rgb(210,210,210)
 light gray(230,230,230) */
 
 /* GENERAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  line-height: 150%;
+  height: 100%;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  line-height: 0;
+}
 
 header {
   background-color: #00a3e0;
 }
 
-/* END OF GENERAL SETTINGS */
-
-/* LAYOUT SETTINGS */
-
 h1 {
   text-align: right;
-  margin-right: 1rem;
+  margin-right: 1em;
   position: relative;
-  top:2rem;
+  top: .8em;
 }
 
+  /* PROJECT AND SCHEDULE SETTINGS */
 
+  h2 {
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    top: .8em;
+  }
 
+  h3 {
+    color: #13294b
+  }
 
+  section section, .studentBox, form {
+    background-color: rgb(230, 230, 230);
+  }
 
+  h3 + p {
+    color: #00a3e0;
+  }
 
+  article img {
+    border: 1px solid rgb(210, 210, 210); /* I know this is different from what you had, but it looks better */
+    padding: 0.75rem;
+    background-color: white;
+    float: left;
+  }
 
-/* END OF LAYOUT SETTINGS */
+  .time {
+    font-style: italic;
+  }
+
+  /* END OF P & S SETTINGS */
+
+/* END OF GENERAL SETTINGS */
 
 /* NAVIGATION SETTINGS */
+#logolink {
+  background-color: #13294b;
+  width: 100%;
+  margin: 0 auto;
+}
 
 nav {
   background-color: #13294b;
@@ -44,14 +93,17 @@ nav a, #miniNav a {
 #pageNav a {
   display: inline-block;
   background-color: rgb(210, 210, 210);
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   text-decoration: none;
   color: black;
-  margin: 1rem;
+  margin: 1em;
+  box-shadow: 0 1px 1px rgb(75, 75, 75);
+  border-radius: 5px;
 }
 
 #pageNav a:hover {
-  background-color: #00a3e0;
+  background-color: #e31c79;
+  color: white;
 }
 
 #pageNav ul, #miniNav ul, nav ul {
@@ -66,7 +118,7 @@ nav a, #miniNav a {
     display: none;
   }
   #lineBox hr {
-    width:1.2rem;
+    width:1.2em;
     height:2px;
     margin: 4px 0;
     box-shadow: 1px 1px 2px black;
@@ -86,11 +138,11 @@ nav a, #miniNav a {
   }
 
   #lineBox {
-    padding: 1rem;
+    padding: 1em;
   }
 
   #miniNav a {
-    padding: 5px 1rem;
+    padding: 5px 1em;
     display: inline-block;
   }
 
@@ -103,12 +155,17 @@ nav a, #miniNav a {
   }
 
   header {
-    height: 4rem;
+    height: 4em;
   }
 
   #pageNav a {
-    margin:1rem 1%;
-    padding:0.5rem 3%;
+    margin:1em 1%;
+    padding:0.5em 3%;
+  }
+
+  article img {
+    width: 20%;
+    padding: 2%
   }
 
 }
@@ -118,5 +175,4 @@ nav a, #miniNav a {
     display: none;
   }
 }
-
 /* END OF NAVIGATION SETTINGS */
