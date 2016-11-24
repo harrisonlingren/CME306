@@ -7,3 +7,15 @@
   columnize/columnize.css:  Defines column/flex layout classes
   fonts/bree.css:           Bree font face imports
 */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 66.667%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .container {
+    width: 800px;
+  }
+}

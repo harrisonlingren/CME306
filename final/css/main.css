@@ -11,11 +11,19 @@
 @import url('columnize/dist/columnize.css');
 @import url('../fonts/bree.css');
 
+@import url('desktop.css');
+@import url('tablet.css');
+@import url('mobile.css');
+
 /* Global styling rules */
 
 body {
   font-family: 'Arial', 'Helvetica', sans-serif;
   font-size: 13px;
+  background-color: #fafafa;
+  height: 96%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,7 +32,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 75%;
 }
 
+.white-text {
+  color: #ffffff;
+}
 
-@import url('desktop.css');
-@import url('tablet.css');
-@import url('mobile.css');
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+main {
+  border: 1.25rem solid #93272C;
+  background-color: #E1B87F;
+  padding: 0.5rem;
+}
