@@ -1,14 +1,14 @@
 /*
-  ------- Style legend -------
-  main.css:        Global styling rules
-  desktop.css:     Desktop-sized styling rules
-  tablet.css:      Tablet-sized styling rules
-  mobile.css:      Mobile-sized styling rules
-  columns.css:     Defines column/flex layout classes
-  fonts/bree.css:  Bree font face imports
+  ---------------- Style legend ----------------
+  main.css:                 Global styling rules
+  desktop.css:              Desktop-sized styling rules
+  tablet.css:               Tablet-sized styling rules
+  mobile.css:               Mobile-sized styling rules
+  columnize/columnize.css:  Defines column/flex layout classes
+  fonts/bree.css:           Bree font face imports
 */
 
-@import url('columns.css');
+@import url('columnize/dist/columnize.css');
 @import url('../fonts/bree.css');
 
 /* Global styling rules */
