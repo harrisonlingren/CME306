@@ -8,13 +8,21 @@
   fonts/bree.css:           Bree font face imports
 */
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
+
+  #ad1, #ad2 {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1000px) {
   .container {
-    width: 66.667%;
+    width: 80%;
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1001px) {
   .container {
     width: 800px;
   }

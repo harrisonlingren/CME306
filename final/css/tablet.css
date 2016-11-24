@@ -11,6 +11,10 @@
 @media screen and (min-width: 601px) and (max-width: 991px) {
 
   .container {
+    width: 80%;
+  }
+
+  #ad1, #ad2 {
     width: 66.667%;
   }
 
