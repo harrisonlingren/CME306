@@ -28,14 +28,14 @@
 			</ul>
 		</div>
 
-			<header><h1>Contact Us</h1></header>
-			<article>
-				<p>Thank you for your comments. We will get back to you as soon as possible.</p>
+		<header role="banner"><h1>Contact Us</h1></header>
+		<article role="main">
+			<p>Thank you for your comments. We will get back to you as soon as possible.</p>
 
-			</article>
+		</article>
 
 
-		<footer>
+		<footer role="contentinfo">
 			<p>Creative Media and Entertainment <br/>
 				College of Communication <br/>
 				Butler University
