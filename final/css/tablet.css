@@ -15,7 +15,29 @@
   }
 
   .ad {
-    width: 75%;
+    width: 90%;
   }
 
+  header > div#mobile-nav {
+    display: none;
+  }
+
+  header > .background > img.logo {
+    /*width: 90%;*/
+    margin: 0 auto;
+  }
+
+  header > .background > .background-img {
+    width: 90%;
+  }
+
+  footer > ul > li > ul > li {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  footer > ul > li > ul > li:first-child {
+    font-size: 1.2rem;
+  }
 }

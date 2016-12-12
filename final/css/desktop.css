@@ -10,18 +10,52 @@
 
 @media screen and (min-width: 992px) {
   .ad {
-    width: 90%;
+    width: 100%;
   }
 
-  h1 { font-size: 48px; }
-  h2 { font-size: 36px; }
-  h3 { font-size: 24px; }
+  h1 { font-size: 2.8rem; }
+  h2 { font-size: 2.2rem; }
+  h3 { font-size: 1.6rem; }
+
+  header > div#mobile-nav {
+    display: none;
+  }
+
+  header > .background > img.logo {
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+  header > nav > ul {
+    width: 80%;
+  }
 
 
+  footer > ul {
+    margin: 0;
+  }
 
+  footer > ul > li {
+    float: left;
+    margin-top: 0;
+    margin-right: 12px;
+    list-style: none;
+  }
 
+  footer > ul > li > ul {
+    list-style: none;
+    margin-left: 5px;
+  }
 
+  footer > ul > li > ul > li > a {
+    color: #666;
+  }
 
+  footer > ul > li > ul > li:first-child > a {
+    color: #93272C;
+    text-decoration: underline;
+    font-weight: 700;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1000px) {
@@ -33,5 +67,16 @@
 @media screen and (min-width: 1001px) {
   .container {
     width: 800px;
+  }
+
+  .background {
+    width: 1024px;
+    height: 658px;
+    margin: 0 auto;
+  }
+
+  header > nav > ul {
+    width: 50%;
+    border: 3px solid black;
   }
 }
