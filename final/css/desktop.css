@@ -26,11 +26,6 @@
     margin-top: 40px;
   }
 
-  header > nav > ul {
-    width: 80%;
-  }
-
-
   footer > ul {
     margin: 0;
   }
@@ -40,6 +35,10 @@
     margin-top: 0;
     margin-right: 12px;
     list-style: none;
+  }
+
+  nav > ul > li > a {
+    font-size: 1.6rem;
   }
 
   footer > ul > li > ul {
@@ -73,10 +72,5 @@
     width: 1024px;
     height: 658px;
     margin: 0 auto;
-  }
-
-  header > nav > ul {
-    width: 50%;
-    border: 3px solid black;
   }
 }

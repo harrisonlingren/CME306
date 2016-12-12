@@ -31,6 +31,18 @@
     width: 90%;
   }
 
+  nav > ul > li > a {
+    font-size: 1.2rem;
+  }
+
+  footer  {
+    margin-top: 20px;
+  }
+
+  footer > ul > li {
+    margin-bottom: 10px;
+  }
+
   footer > ul > li > ul > li {
     font-size: 1rem;
     text-align: center;
