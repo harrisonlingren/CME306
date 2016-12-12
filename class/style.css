@@ -92,7 +92,7 @@ nav a, #miniNav a {
 	border-radius:5px;
 }
 
-#pageNav a:hover, nav a:hover {
+#pageNav li:hover, nav li:hover {
 	background-color:#E31C79;
 	color:white;
 }
@@ -217,8 +217,6 @@ figure b {
 
 	#lineBox {
 		padding:1rem;
-		position:absolute;
-		right:0;
 	}
 
 	#miniNav ul {
@@ -246,7 +244,7 @@ figure b {
 	#miniNav {
 		position:absolute;
 		top:0;
-		right:0;
+		left:0;
 		z-index:3;
 	}
 
