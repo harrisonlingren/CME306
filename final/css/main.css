@@ -23,11 +23,14 @@
   margin: 0;
 }
 
-
-
 /* Global styling rules */
 
 /*layout*/
+
+.row {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 
 .col {
   padding-left: 5px;
@@ -77,18 +80,30 @@ main ul, main ol {
   margin: 1.2em 0 1.2em 1.1em;
 }
 
+a {
+  color: #ffffff; 
+}
+
 .white-text {
   color: #ffffff;
 }
 
-.white-text + a:hover {
+.brown-text {
+  color: #5d3926;
+}
+
+.white-text > a:hover {
     color: #93272C;
+}
+
+.white-text > a {
+  text-decoration: none;
 }
 
 hr {
   color: #E1B87F;
   background-color: #E1B87F;
-  border: 1px dotted #000;
+  border: 0.5px dotted #000;
   border-style: none none dotted;
   margin: 20px 0;
   clear: both;
@@ -101,6 +116,14 @@ img {
   display: inline-block;
   margin: 10px auto;
   display: block;
+}
+
+.productImg {
+  width: 100%;
+}
+
+.pageNav > img {
+  width: 100%;
 }
 
 /*header*/
@@ -140,7 +163,7 @@ nav > ul > li:hover {
 }
 
 nav > ul > li:nth-child(1) {
-  background-color: rgba(147,39,44, 0.25);
+  background-color: rgba(147,39,44, 0.5);
 }
 
 nav > ul > li:nth-child(1):hover {
@@ -148,7 +171,7 @@ nav > ul > li:nth-child(1):hover {
 }
 
 nav > ul > li:nth-child(2) {
-  background-color: rgba(78,118,156, 0.25);
+  background-color: rgba(78,118,156, 0.5);
 }
 
 nav > ul > li:nth-child(2):hover {
@@ -156,7 +179,7 @@ nav > ul > li:nth-child(2):hover {
 }
 
 nav > ul > li:nth-child(3) {
-  background-color: rgba(160,153,88, 0.25);
+  background-color: rgba(160,153,88, 0.5);
 }
 
 nav > ul > li:nth-child(3):hover {
@@ -164,7 +187,7 @@ nav > ul > li:nth-child(3):hover {
 }
 
 nav > ul > li:nth-child(4) {
-  background-color: rgba(103,71,54, 0.25);
+  background-color: rgba(103,71,54, 0.5);
 }
 
 nav > ul > li:nth-child(4):hover {
@@ -172,7 +195,7 @@ nav > ul > li:nth-child(4):hover {
 }
 
 nav > ul > li:nth-child(5) {
-  background-color: rgba(207,69,32, 0.25);
+  background-color: rgba(207,69,32, 0.5);
 }
 
 nav > ul > li:nth-child(5):hover {
@@ -180,11 +203,11 @@ nav > ul > li:nth-child(5):hover {
 }
 
 nav > ul > li:nth-child(6) {
-  background-color: rgba(225,184,127, 0.25);
+  background-color: rgba(183,119,41, 0.5);
 }
 
 nav > ul > li:nth-child(6):hover {
-  background-color: rgba(225,184,127, 1);
+  background-color: rgba(183,119,41, 1);
 }
 
 header > div#mobile-nav > ul {
