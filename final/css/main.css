@@ -254,6 +254,10 @@ header > div#mobile-nav > ul > li{
 
 /*footer*/
 
+footer {
+  margin-top: 10px;
+}
+
 footer > ul {
   margin: 0;
 }
