@@ -78,6 +78,7 @@ h1 {color: #5d3926;}
 
 main ul, main ol {
   margin: 1.2em 0 1.2em 1.1em;
+  padding-left: 20px;
 }
 
 a {
