@@ -81,7 +81,7 @@ main ul, main ol {
 }
 
 a {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .white-text {
@@ -109,6 +109,14 @@ hr {
   clear: both;
 }
 
+section {
+  margin-top: 15px;
+}
+
+section > ul > li {
+  font-style: italic;
+}
+
 
 /*images*/
 
@@ -122,7 +130,7 @@ img {
   width: 100%;
 }
 
-.pageNav > img {
+main > .row > .col.m4.l4 > img {
   width: 100%;
 }
 
@@ -218,6 +226,29 @@ header > div#mobile-nav > ul {
 header > div#mobile-nav > ul > li{
   list-style: none;
   width: 100%;
+}
+
+.pageNav {
+  padding: 1;
+}
+
+.pageNav > ul > li {
+  font-weight: bold;
+  color: #ffffff;
+  list-style: none;
+}
+
+.pageNav ul > li:hover {
+  text-decoration: underline;
+}
+
+.pageNav > ul > li > a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.pageNav > ul > li > a:hover {
+  text-decoration: underline;
 }
 
 
