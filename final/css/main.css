@@ -21,6 +21,7 @@
 * {
   padding: 0;
   margin: 0;
+  z-index: 1;
 }
 
 /* Global styling rules */
@@ -131,6 +132,11 @@ input[type='text'] {
   border-radius: 2px;
 }
 
+textarea {
+  width: 60%;
+  height: 10%;
+}
+
 button {
   border-color: #93272C #93272C hsl(0, 63%, 45%);
   border-radius: 4px;
@@ -150,6 +156,9 @@ img {
 
 .productImg {
   width: 100%;
+  border-radius: 1px;
+  border: 3px solid #fafafa;
+  box-shadow: 0px 0px 2px 1px #757575;
 }
 
 main > .row > .col.m4.l4 > img, main > .row > .col.m4.l4 > a > img {
@@ -240,14 +249,42 @@ nav > ul > li:nth-child(6):hover {
   background-color: rgba(183,119,41, 1);
 }
 
-header > div#mobile-nav > ul {
-  list-style: none;
-  background-color: #E1B87F;
+#lineBox hr {
+  width:1.2rem;
+  height:2px;
+  margin:4px 0;
+  box-shadow:1px 1px 2px black;
+  background-color:#ecf0f1;
+  border:none;
 }
 
-header > div#mobile-nav > ul > li{
+#lineBox {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#mobile-nav {
+  display: block;
+  margin: 0 auto;
+}
+
+#mobile-nav > ul {
+  display: none;
   list-style: none;
+  background-color: #000000;
+  z-index: 999;
   width: 100%;
+}
+
+#mobile-nav > ul:hover {
+  display: block;
+}
+
+#mobile-nav > ul > li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+  background-color: #000;
 }
 
 .pageNav {
