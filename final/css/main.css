@@ -119,6 +119,27 @@ section > ul > li {
 }
 
 
+/* form */
+input {
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  width: 60%;
+  border: 0px;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+button {
+  border-color: #93272C #93272C hsl(0, 63%, 45%);
+  border-radius: 4px;
+  background-color: #93272C;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
 /*images*/
 
 img {
@@ -131,7 +152,7 @@ img {
   width: 100%;
 }
 
-main > .row > .col.m4.l4 > img {
+main > .row > .col.m4.l4 > img, main > .row > .col.m4.l4 > a > img {
   width: 100%;
 }
 
